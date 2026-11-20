@@ -1,0 +1,1 @@
+const PARISTAY_CONFIG = {"relay":"https://api.paristay.xyz","feedback":"aarynyan@gmail.com","ownKey":false,"build":"8f3a2af","built":"2026-11-21","moved":"https://paristay.xyz/","voices":"https://voices.paristay.xyz/supertonic-3-int8/","voicesZh":"https://voices.paristay.xyz/melo-zh_en-a0d5c6a/"};

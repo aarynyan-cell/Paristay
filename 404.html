@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Paristay</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;background:#efe6d5;color:#3b3340;margin:0;padding:32px 20px}a{color:#2f5d9a}</style>
+</head>
+<body>
+<p lang="en">This page doesn’t exist. Taking you to Paristay…</p>
+<p lang="fr">Cette page n’existe pas. Retour à Paristay…</p>
+<p lang="zh">没有这一页。正在回到 Paristay……</p>
+<p><a id="home" href="./">Paristay</a></p>
+<script>
+(function () {
+  var base = "/Paristay/";
+  if (!base) { var seg = location.pathname.split('/')[1]; base = /\.github\.io$/.test(location.hostname) && seg ? '/' + seg + '/' : '/'; }
+  document.getElementById('home').setAttribute('href', base);
+  setTimeout(function () { location.replace(base); }, 1200);
+})();
+</script>
+</body>
+</html>

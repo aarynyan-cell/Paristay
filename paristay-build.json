@@ -1,0 +1,28 @@
+{
+  "app": "paristay",
+  "version": "8f3a2af",
+  "date": "2026-11-21",
+  "minified": true,
+  "tool": "esbuild 0.28.2",
+  "relay": "https://api.paristay.xyz",
+  "feedback": true,
+  "site": "https://aarynyan-cell.github.io/Paristay/",
+  "moved": "https://paristay.xyz/",
+  "voices": "https://voices.paristay.xyz/supertonic-3-int8/",
+  "voicesZh": "https://voices.paristay.xyz/melo-zh_en-a0d5c6a/",
+  "previous": "ce5311f",
+  "top": [
+    ".nojekyll",
+    "404.html",
+    "LICENSES",
+    "app.65b0e39ccb.css",
+    "app.b191967551.js",
+    "config.js",
+    "icons",
+    "index.html",
+    "manifest.webmanifest",
+    "robots.txt",
+    "vendor",
+    "vw.3f57b0f667.js"
+  ]
+}
